@@ -1,10 +1,6 @@
 cd /opt;
 while true;
- do  TMP=`ps x`;
- echo $TMP | grep "ruby shell.rb" > /dev/null;
- if [ $? -ne 0 ];
-   then sudo -u user ruby shell.rb;
- fi;
+ sudo -u user ruby shell.rb;
  sleep 3;
 done
 
