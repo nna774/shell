@@ -9,7 +9,7 @@ IRC から任意のコマンドを実行してくれるBot
 cd /opt; git clone https://github.com/nna774/shell.git
 `
 
-/opt に設置することを想定しています。
+/opt に設置することを想定しています。それ以外の時は startShell.sh をいい感じに編集してください.
 
 home ディレクトリは消しておくか、root にわたしておかないと、authorized_keys に公開鍵を入れられて入られました。
 
